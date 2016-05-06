@@ -4,10 +4,10 @@ import re
 import matplotlib.pyplot as plt
 from itertools import islice
 import random
-atoken = '3433403097-HlLrdLubHDlVLHT0fcox275EIjcv6Oh5wyEXI63'
-asecret = 'iC0Kg69aS05faFU4sF864e0WSgkAHGKgzs8NBnOdHh3yT'
-ckey = 'lQ5XEKtDycBVlrvYmc75oOl9C'
-csecret= 'eGAdoxsmc6MoTUUHLeLHow6f7SoUeqzEicrjw9piqmxOPgHHJG'
+atoken = ''
+asecret = ''
+ckey = ''
+csecret= ''
 
 
 tweets_data_path = 'twitter_data.txt'
