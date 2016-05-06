@@ -4,10 +4,10 @@ import re
 import matplotlib.pyplot as plt
 from itertools import islice
 import random
-atoken = ''
-asecret = ''
-ckey = ''
-csecret= ''
+atoken = '3433403097-HlLrdLubHDlVLHT0fcox275EIjcv6Oh5wyEXI63'
+asecret = 'iC0Kg69aS05faFU4sF864e0WSgkAHGKgzs8NBnOdHh3yT'
+ckey = 'lQ5XEKtDycBVlrvYmc75oOl9C'
+csecret= 'eGAdoxsmc6MoTUUHLeLHow6f7SoUeqzEicrjw9piqmxOPgHHJG'
 
 
 tweets_data_path = 'twitter_data.txt'
@@ -43,7 +43,7 @@ for line in tweets_file:
         tweet = json.loads(line)
         print(tweet['text'])
         for i in range(0, len(datapts)):
-            datapts[i] += 1 if word_in_text(keywords[i], str(tweet)) else 0
+            datapts[i] += 1 if words_in_text(keywords[i], tweet['text'] else 0
         tweets_data.append(tweet)
     except:
         continue

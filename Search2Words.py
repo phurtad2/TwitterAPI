@@ -5,10 +5,10 @@ import json
 import os
 
 # Variables that contains the user credentials to access Twitter API
-ACCESS_TOKEN = '3433403097-HlLrdLubHDlVLHT0fcox275EIjcv6Oh5wyEXI63'
-ACCESS_SECRET = 'iC0Kg69aS05faFU4sF864e0WSgkAHGKgzs8NBnOdHh3yT'
-CONSUMER_KEY = 'lQ5XEKtDycBVlrvYmc75oOl9C'
-CONSUMER_SECRET = 'eGAdoxsmc6MoTUUHLeLHow6f7SoUeqzEicrjw9piqmxOPgHHJG'
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 
 #This is a basic listener that just prints received tweets to stdout.
